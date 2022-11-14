@@ -1,0 +1,128 @@
+.login {
+    height: 450px;
+    background-color: #f2f2f2;
+    position: relative;
+}
+
+.login .img_background {
+    background: url(../img/python.jpeg);
+    width: 100%;
+    height: 450px;
+    background-position: center;
+    background-size: cover;
+}
+
+.login .form_background {
+    width: 500px;
+    height: 450px;
+    background: linear-gradient(to right bottom, #e6e6e6 0%, #cccccc 100%);
+    margin: auto;
+    opacity: 0.87;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.form_background h2 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    color: #2e4c6d;
+    height: 100px;
+    padding-top: 50px;
+    padding-bottom: 75px;
+}
+
+[for="email"],
+[type="email"],
+[for="password"],
+[type="password"] {
+    display: block;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+[for="email"],
+[for="password"] {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+[type="email"],
+[type="password"] {
+    padding: 8px 0 8px 10px;
+    width: 250px;
+    text-align: left;
+    border: 1px solid #ccc;
+    background-color: #4b7eb4;
+}
+
+[type="email"]::placeholder,
+[type="password"]::placeholder {
+    color: #fff;
+    font-size: 15px;
+    padding-left: 5px;
+}
+
+[type="email"]:focus,
+[type="password"]:focus {
+    outline: none;
+    color: #fff;
+}
+
+[type="email"]::selection,
+[type="password"]::selection {
+    background-color: black;
+}
+
+[type="submit"] {
+    margin: 0 auto;
+    text-align: center;
+}
+
+[class="button"] {
+    width: 100%;
+    height: 65px;
+    position: relative;
+    padding-top: 10px;
+}
+
+[type="submit"] {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    padding: 8px 25px;
+    border: 2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    background: linear-gradient(to right bottom, #66b8ff 0%, #000e1a 100%);
+    color: #fff;
+    font-size: 15px;
+}
+
+[type="submit"]:hover {
+    background: linear-gradient(to right bottom, #ffa500 0%, #ff0000 100%);
+}
+
+[type="submit"]:active {
+    background: linear-gradient(to right bottom, #ffb833 0%, #660000 100%);
+}
+
+[class="forgot_password"] {
+    height: 30px;
+    text-align: center;
+}
+
+[class="forgot-password"] {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: #22252a;
+}
+
+[class="forgot-password"]:hover {
+    color: #005c99;
+    transition-duration: .3s;
+}
+
